@@ -1,9 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-}
-
-.maxWidthWrapper {
+  isolation: isolate;
 }
 
 .header {
@@ -29,7 +27,7 @@
   width: 35%;
   min-height: 500px;
   top: 128px;
-  right: 0;
+  right: 50px;
 }
 
 .controlColumn {
