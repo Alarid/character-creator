@@ -8,6 +8,10 @@
   padding-bottom: 64px;
 }
 
+.maxWidthWrapper {
+  position: relative;
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: 600;
@@ -31,7 +35,6 @@
 }
 
 .controlColumn {
-  isolation: isolate;
   width: 50%;
 }
 

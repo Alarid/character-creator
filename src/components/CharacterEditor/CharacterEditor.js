@@ -25,6 +25,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <div className={styles.perspectiveBox} />
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
@@ -33,7 +34,6 @@ function App() {
             What sort of adventure will you embark on?{" "}
           </p>
         </header>
-        <div className={styles.perspectiveBox} />
         <div className={styles.controlColumn}>
           <ControlPane
             title="Bodies"
